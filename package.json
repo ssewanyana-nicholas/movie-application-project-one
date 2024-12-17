@@ -4,7 +4,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",  
-    "build": "echo \"No build script defined\"",  
+    "build": "echo 'no build step required'",  
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
