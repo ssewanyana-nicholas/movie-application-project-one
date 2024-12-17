@@ -1,14 +1,16 @@
 {
   "name": "movie-application-project-one",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",  
+    "build": "echo \"No build script defined\"",  
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Movie application project",
   "dependencies": {
     "@netlify/functions": "^2.8.2",
     "axios": "^1.7.9",
@@ -20,5 +22,8 @@
     "stripe": "^17.4.0",
     "uuid": "^11.0.3"
   },
-  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
+  "devDependencies": {
+  
+  },
+  "packageManager": "pnpm@9.12.2"
 }
