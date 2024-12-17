@@ -1,0 +1,10 @@
+<h1>Checkout: <%= movie.title %>
+</h1>
+<p>Price: UGX <%= movie.price %>
+</p>
+<form action="/payment/initiate" method="POST">
+    <input type="hidden" name="amount" value="<%= movie.price %>" />
+    <label for="payer">Enter Phone Number (MSISDN):</label>
+    <input type="text" name="payer" required />
+    <button type="submit">Pay Now</button>
+</form>

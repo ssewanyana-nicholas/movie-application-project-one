@@ -1,0 +1,9 @@
+<h1>Available Movies</h1>
+<ul>
+  <% movies.forEach(movie => { %>
+    <li>
+      <h3><%= movie.title %> - UGX <%= movie.price %></h3>
+      <a href="/movies/checkout/<%= movie.id %>">Book Now</a>
+    </li>
+  <% }) %>
+</ul>
