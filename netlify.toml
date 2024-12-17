@@ -1,0 +1,9 @@
+[build]
+  publish = "build"  # This is the folder where your build files go (React example is "build").
+  command = "npm run build"  # Or "pnpm build" if you're using pnpm.
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true  # Ensures that all routes are served by index.html (for SPA)
