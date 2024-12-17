@@ -4,7 +4,7 @@
 # clarification.
 
 # node_modules is a storage folder for Node and
-# can get very large.
+# can get very large. t
 node_modules
 
 # .env file is for local use only. It contains
@@ -18,3 +18,6 @@ node_modules
 README.md
 #ignored
 pnpm-lock.yaml
+
+# Local Netlify folder
+.netlify
